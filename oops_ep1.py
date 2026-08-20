@@ -35,12 +35,12 @@ hello()
 class person:
     # name = "nikhil"
     # occ = "Devloper"
-    def __init__(self,n,o):
+    def __init__(self,n,o):    # Parameterized Constructor
         print("hey i am a person")
         self.name = n
         self.occ = o
 
-    def info(self):
+    def info(self):         # Default Constructor
      print(f"{self.name} is a {self.occ}")
 
 
